@@ -1,0 +1,273 @@
+.Banner{
+    margin: auto;
+    padding: 10px;
+    font-family: system-ui;
+    line-height: 25px;
+    background-image: url("../Background/background1.png");
+}
+.banner2{
+    margin: auto;
+    padding: 10px;
+    font-family: system-ui;
+    line-height: 25px;
+    height: 650px;
+    width: 52%;
+    margin: auto;
+    background-image: url("../Background/background2.png"); 
+    background-repeat: no-repeat;
+}
+.banner3{
+    background-color: black;
+    color: aliceblue;
+}
+.bannersale{
+    width: 75%;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    text-align: left;
+}
+.circle{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;   
+    background-image: url("../Logo/saleGroup.png");
+    background-repeat: no-repeat;
+}
+.round{
+    width: 300px;
+    height: 500px;   
+    margin-top: -6em;
+    background-image: url("../Logo/circle.png");
+    background-repeat: no-repeat;
+}
+.tokensale{
+    margin-top: -270px;
+    width: 500px;
+    margin-left: 100px;
+    height: 500px;   
+    background-image: url("../Logo/tokenSale.png");
+    background-repeat: no-repeat;
+}
+.tokensalepara{
+    width: 50%;
+    margin-top: 120px;
+    font-size: 16px;
+}
+.solution{
+    margin: auto;
+    padding: 10px;
+    font-family: system-ui;
+    line-height: 25px;
+    height: 700px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    line-height: 30px;
+    gap:30px;
+    text-align: left;
+    background-image: url("../Background/background3.png");
+}
+.solution1{
+    margin-top: 230px;
+    font-size: 20px;
+    width: 45%;
+    line-height: 45px;
+    
+}
+.solution2{
+    width: 50%;
+    margin-top: 350px;
+    font-size: 20px;
+}
+.aboutlogo{
+    height: 350px;   
+    background-image: url("../Logo/aboutlogo.png");
+    background-repeat: no-repeat;
+}
+.Banner2{
+    background-color: black;
+    padding: 10px;
+    height: auto;
+}
+.fullredstar{
+    margin: auto;
+    height: 1000px;
+    width: 1200px;
+    margin-left: 1150px;
+    background-image: url("../Logo/fullredstart.png");
+    background-repeat: no-repeat;
+} 
+.BuyToken{
+    margin: auto;
+    height: 1000px;
+    width: 1200px;
+    background-image: url("../Logo/buyToken.png");
+    background-repeat: no-repeat;
+} 
+.governave{
+    display: flex;
+    width: 80%;
+    gap: 30px;
+    margin: auto;
+    margin-top: -40em;
+}
+.Governavers{
+    padding: 10px;
+    height: 1000px;
+    width: 4500px;
+    background-image: url("../Logo/Governavers.png");  
+    background-repeat: no-repeat;
+}
+.persondetail{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    height: 1000px;
+    width: 4500px;
+    background-image: url("../Logo/persons.png");  
+    background-repeat: no-repeat;
+    margin-top: -20em;
+}
+.fund{
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    width: 1200px;
+    text-align: left;
+    background-image: url("../Background/background4.png");
+    background-repeat: no-repeat;
+    margin-top: -40em;
+}
+.star{
+    height: 150px;
+    background-image: url("../Logo/Star.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+}
+.Img {
+  width: 100%;
+}
+.AboutImg{
+    width: 20%;
+}
+.titlepara{
+    color: aliceblue;
+}
+.title{
+    width: 87%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.titleAbout{
+    width: 97%;
+    display: flex;  
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: Satoshi;
+}
+.TitleAbout{
+    width: 40%;
+    margin: auto;
+    margin-top: -40px;
+    margin-right: 160px;
+}
+.buy{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(181, 13, 13);
+}
+.token{
+    display: flex;
+    margin: auto;
+    align-content:left;
+    padding: 10px;
+    justify-content: space-between;
+}
+.Tokenpara{
+    width: 70%;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 250px;
+    font-family:Satoshi ;
+}
+.Tokenpara1{
+    width: 70%;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 250px;
+    margin-right: -350px;
+    font-family:Satoshi ;
+}
+.para{
+    width: 75%;
+    margin: auto;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+.problem{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 450px;
+}
+.problemImg{
+    margin-left: 200px;
+}
+.footer1{
+background-color: rgba(240, 2, 59, 1);
+display: flex;
+ justify-content: space-around;
+ color: white;
+ font-family: Satoshi;
+ text-align: left;
+}
+.social{
+    display: flex;
+    gap:10px;
+    color: white;
+}
+.fullstar{
+    height:150px;
+    margin-top: 20px; 
+}
+.footersec{
+    display: flex;
+    padding:20px;
+color: aliceblue;
+height: auto;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+}
+
+.footer2{
+    background-color: black;
+}
+hr{
+    height: 2px;
+    background-color: rgb(212, 0, 0);
+    border: none;
+}
+.ImgFooter{
+    width: 30%;
+}
+.footerlast{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    gap:25px;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    justify-content: space-between;
+}

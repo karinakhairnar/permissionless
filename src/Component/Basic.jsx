@@ -192,7 +192,7 @@ const Basic = () => {
           <div className='persondetail'></div>
       </div>
       {/* footer */}
-      {/* <div className='footer'>
+      <div className='footer'>
         <div className='footer1'>
           <div>
             <div>
@@ -255,7 +255,7 @@ const Basic = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

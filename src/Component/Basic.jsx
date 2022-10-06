@@ -12,6 +12,7 @@ import q12023 from '../Logo/q12023.png';
 import q22023 from '../Logo/q22023.png';
 import q32023 from '../Logo/q32023.png';
 import q42022 from '../Logo/q42022.png';
+import Starfull from '../Logo/Starfull.png';
 
 import background4 from '../Background/background4.png';
 
@@ -42,6 +43,9 @@ const Basic = () => {
             </div>
             <div>
               <p className='buy'> Buy Token</p>
+            </div>
+            <div className='fullstar'>
+              <img src={Starfull} alt='Starfull' className='Img' />
             </div>
           </div>
           <div>
@@ -274,7 +278,6 @@ const Basic = () => {
                   <p>INSTAGRAM</p>
                   <p>LINKDIN</p>
                 </div>
-
                 <div className='social'>
                   <p>MEDIUM</p>
                   <p>DISCORD</p>
@@ -307,19 +310,19 @@ const Basic = () => {
               <div>
                 <p className='buy1'>QUICK LINKS</p>
               </div>
-              <div>
+              <div className='terms'>
                 <p>Token</p>
                 <p>How it works</p>
               </div>
-              <div>
+              <div className='terms'>
                 <p>FAQ</p>
                 <p>Our Termms</p>
               </div>
-              <div>
+              <div className='terms'>
                 <p>Team</p>
                 <p>Whitepaper</p>
               </div>
-              <div>
+              <div className='terms'>
                 <p>Contact</p>
                 <p>Privacy Policy</p>
               </div>

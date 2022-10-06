@@ -167,7 +167,6 @@
 }
 
 .DataMap{
-    width: 80%;
     margin: auto;
     margin-top: 5em;
 }
@@ -185,6 +184,7 @@
     margin-top: -0.5em;
     margin-left: 5em;
     width: 90%;
+    
 }
 .star{
     height: 150px;
@@ -229,8 +229,15 @@
 .buy{
     font-size: 39px;
     font-weight: 500;
-    margin-left: -15em;
+    margin-left: -5em;
     color: rgb(181, 13, 13);
+}
+#hr1{
+    color: aliceblue;
+}
+.fullstar{
+    margin-top: 2em;
+    width: 40%;
 }
 .buy1{
     font-size: 16px;
@@ -238,6 +245,7 @@
     margin-left: -15em;
     line-height: 21.6px;
     color: rgb(181, 13, 13);
+    
 }
 
 .token{
@@ -279,7 +287,7 @@ margin-left: -200px;
     margin-right: -350px;
 }
 .para{
-    width: 75%;
+    width: 87%;
     margin: auto;
     color: white;
     text-align: left;
@@ -316,10 +324,9 @@ display: flex;
     line-height: 21.6px;
     color: white;
 }
-.fullstar{
-    height:150px;
-    margin-top: 20px; 
-}
+/* .fullstar{
+    height:170px;
+} */
 .footersec{
     display: flex;
     padding:20px;
@@ -340,6 +347,7 @@ hr{
 }
 .ImgFooter{
     width: 30%;
+    margin-top: 10px;
 }
 .footerlast{
     background-color: black;
@@ -352,6 +360,7 @@ hr{
     font-size: 12px;
     line-height: 16.2px;
     margin: auto;
+    margin-top: 10px;
     justify-content: space-between;
 }
 .mapDetails{
@@ -391,6 +400,7 @@ width: 35%;
 .datemap>div{
     border: 1px solid rgb(95, 83, 83);
     padding: 10px;
+    backdrop-filter: blur(7px);
 }
 .lastone{
 position: absolute;
@@ -398,6 +408,7 @@ width: 200px;
 height: 140px;
 left: 1200px;
 top: 4670px;
+
 }
 .lastsec{
 position: absolute;
@@ -426,5 +437,10 @@ top: 4740px;
     height: 140px;
     right: 1070px;
     top: 4900px;
- 
+    
+}
+.terms{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.2px;
 }

@@ -233,29 +233,29 @@ const Basic = () => {
             </p>
           </div>
           <div className='DataMap'>
-            <hr style={{ transform: 'rotate(-13deg)'}} />
+          <hr style={{ transform: 'rotate(-16deg)' }} />
             <div className='datemap'>
-              <div>
+              <div className='first'>
                 <img src={q42022} alt='q42022' />
                 <p>
                   Massa, mattis elit tincidunt faucibus porta enim integer dolor
                   odio.
                 </p>
               </div>
-              <div>
+              <div className='sec'>
                 <img src={q12023} alt='q12023' />
                 <p>Sed nibh congue tempus sit sit.</p>
               </div>
-              <div>
+              <div className='lastthird'>
                 <img src={q22023} alt='q22023' />
                 <p>Sed pharetra nibh condimentum id pellentesque.</p>
               </div>
-              <div>
+              <div className='lastsec'>
                 <img src={q32023} alt='q32023' />
                 <p>Nullam sed tincidunt dui vehicula porttitor.</p>
               </div>
               <div className='lastone'>
-                <img src={q42023} alt='q42023'/>
+                <img src={q42023} alt='q42023' />
                 <p>Morbi maecenas quis hendrerit nam neque.</p>
               </div>
             </div>

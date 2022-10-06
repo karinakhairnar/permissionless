@@ -13,6 +13,7 @@ import q22023 from '../Logo/q22023.png';
 import q32023 from '../Logo/q32023.png';
 import q42022 from '../Logo/q42022.png';
 import Starfull from '../Logo/Starfull.png';
+import FullWhiteStar from '../Logo/FullWhiteStar.png';
 
 import background4 from '../Background/background4.png';
 
@@ -44,7 +45,7 @@ const Basic = () => {
             <div>
               <p className='buy'> Buy Token</p>
             </div>
-            <div className='fullstar'>
+              <div className='fullstar'>
               <img src={Starfull} alt='Starfull' className='Img' />
             </div>
           </div>
@@ -286,7 +287,7 @@ const Basic = () => {
             </div>
           </div>
           <div>
-            <img src={Fullstar} alt='Fullstar' className='fullstar' />
+            <img src={FullWhiteStar} alt='FullWhiteStar' className='Img' />
           </div>
         </div>
         <div className='footer2'>

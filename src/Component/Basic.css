@@ -1,4 +1,7 @@
-.Banner{
+
+*{
+    font-family: Satoshi;
+}.Banner{
     margin: auto;
     padding: 10px;
     font-family: system-ui;
@@ -55,33 +58,39 @@
 .tokensalepara{
     width: 75%;
     margin-top: 120px;
-    font-size: 18px;
-    line-height: 2em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:21.6px;
 }
 .solution{
     margin: auto;
     padding: 10px;
-    font-family: system-ui;
-    line-height: 25px;
+    font-family: Satoshi;
+    font-size: 16px;
+    line-height: 21.6px;
     height: 700px;
     background-color: black;
     color: aliceblue;
     display: flex;
-    line-height: 30px;
     gap:30px;
     text-align: left;
     background-image: url("../Background/background3.png");
 }
 .solution1{
     margin-top: 230px;
-    font-size: 20px;
-    width: 45%;
-    line-height: 45px;  
+    width: 30%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.75px;
 }
 .solution2{
-    width: 50%;
+    width: 40%;
+    margin: auto;
     margin-top: 350px;
     font-size: 16px;
+    height: 700px;
+    line-height: 21.6px;
 }
 .aboutlogo{
     height: 350px;   
@@ -121,7 +130,9 @@
     display: flex;
     width: 90%;
     margin: auto;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
     text-align: left;
 }
 
@@ -135,6 +146,9 @@
 .Governavers{
     width: 60%;
     margin-left: -12em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
 }
 /* .persondetail{
     width: 80%;
@@ -182,6 +196,10 @@
 }
 .titlepara{
     color: aliceblue;
+        line-height: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
 }
 .title{
     width: 87%;
@@ -204,11 +222,21 @@
     margin-right: 160px;
 }
 .buy{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 39px;
+    font-weight: 500;
+    margin-left: -15em;
     color: rgb(181, 13, 13);
 }
+.buy1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -15em;
+    line-height: 21.6px;
+    color: rgb(181, 13, 13);
+}
+
 .token{
+    width: 99%;
     display: flex;
     margin: auto;
     align-content:left;
@@ -216,39 +244,42 @@
     justify-content: space-between;
 }
 .Tokenpara{
-    width: 40%;
-   
+    width: 30%;
     color: white;
     text-align: left;
-    font-size: 20px;
+    font-size: 39px;
+    font-weight: 300;
     margin-top: 10px;
     margin-left: 250px;
+    line-height: 47px;
     font-family:Satoshi ;
 }
 .TokenPara{
     color: white;
     text-align: left;
-    font-size: 20px;
+    line-height: 21px;
+    font-size: 16px;
     margin-top: 100px;
 width: 50%;
 margin-left: -200px;
-    font-family:Satoshi ;
 }
 .Tokenpara1{
     width: 70%;
     color: white;
     text-align: left;
+    line-height: 21.6px;
+    font-weight: 400px;
     font-size: 16px;
     margin-top: 250px;
     margin-right: -350px;
-    font-family:Satoshi ;
 }
 .para{
     width: 75%;
     margin: auto;
     color: white;
     text-align: left;
-    font-size: 12px;
+    line-height: 21.6px;
+    font-size: 16px;
 }
 .problem{
     display: grid;
@@ -267,12 +298,17 @@ background-color: rgba(240, 2, 59, 1);
 display: flex;
  justify-content: space-around;
  color: white;
- font-family: Satoshi;
  text-align: left;
+ font-weight: 500;
+    font-size: 39px;
+    line-height: 52.65px;
 }
 .social{
     display: flex;
     gap:10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
     color: white;
 }
 .fullstar{
@@ -307,6 +343,9 @@ hr{
     gap:25px;
     width: 90%;
     text-align: left;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.2px;
     margin: auto;
     justify-content: space-between;
 }
@@ -324,8 +363,10 @@ width: 35%;
     font-family: Satoshi;
     text-align: left;
     gap: 80px;
+    font-size: 16px;
+    font-weight: 400;
     align-items: left;
-    line-height: 25px;
+    line-height: 21.6px;
     color: grey;
 }
 .datemap{
@@ -335,6 +376,9 @@ width: 35%;
     gap: 20px;
     color: gray;
     width: 80%;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
     margin: auto;
 }
 .datemap>div{

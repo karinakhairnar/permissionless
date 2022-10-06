@@ -232,6 +232,7 @@ const Basic = () => {
               Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec{' '}
             </p>
           </div>
+          <hr />
           <div className='datemap'>
             <div>
               <img src={q42022} alt='q42022' />
@@ -252,7 +253,7 @@ const Basic = () => {
               <img src={q32023} alt='q32023' />
               <p>Nullam sed tincidunt dui vehicula porttitor.</p>
             </div>
-            <div>
+            <div className='lastone'>
               <img src={q42023} alt='q42023' />
               <p>Morbi maecenas quis hendrerit nam neque.</p>
             </div>
@@ -290,20 +291,20 @@ const Basic = () => {
               <p style={{ color: 'grey' }}>ENTER EMAIL ID</p>
             </div>
             <div>
-              <label className='buy'>SUBSCRIBE</label>
+              <label className='buy1'>SUBSCRIBE</label>
             </div>
           </div>
           <hr />
           <div className='footerlast'>
             <div>
               <div>
-                <div>
-                  <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
-                </div>
+                <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
               </div>
             </div>
-            <p className='buy'>QUICK LINKS</p>
             <div className='footerlast'>
+              <div>
+                <p className='buy1'>QUICK LINKS</p>
+              </div>
               <div>
                 <p>Token</p>
                 <p>How it works</p>

@@ -232,30 +232,32 @@ const Basic = () => {
               Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec{' '}
             </p>
           </div>
-          <hr />
-          <div className='datemap'>
-            <div>
-              <img src={q42022} alt='q42022' />
-              <p>
-                Massa, mattis elit tincidunt faucibus porta enim integer dolor
-                odio.
-              </p>
-            </div>
-            <div>
-              <img src={q12023} alt='q12023' />
-              <p>Sed nibh congue tempus sit sit.</p>
-            </div>
-            <div>
-              <img src={q22023} alt='q22023' />
-              <p>Sed pharetra nibh condimentum id pellentesque.</p>
-            </div>
-            <div>
-              <img src={q32023} alt='q32023' />
-              <p>Nullam sed tincidunt dui vehicula porttitor.</p>
-            </div>
-            <div className='lastone'>
-              <img src={q42023} alt='q42023' />
-              <p>Morbi maecenas quis hendrerit nam neque.</p>
+          <div className='DataMap'>
+            <hr style={{ transform: 'rotate(-13deg)'}} />
+            <div className='datemap'>
+              <div>
+                <img src={q42022} alt='q42022' />
+                <p>
+                  Massa, mattis elit tincidunt faucibus porta enim integer dolor
+                  odio.
+                </p>
+              </div>
+              <div>
+                <img src={q12023} alt='q12023' />
+                <p>Sed nibh congue tempus sit sit.</p>
+              </div>
+              <div>
+                <img src={q22023} alt='q22023' />
+                <p>Sed pharetra nibh condimentum id pellentesque.</p>
+              </div>
+              <div>
+                <img src={q32023} alt='q32023' />
+                <p>Nullam sed tincidunt dui vehicula porttitor.</p>
+              </div>
+              <div className='lastone'>
+                <img src={q42023} alt='q42023'/>
+                <p>Morbi maecenas quis hendrerit nam neque.</p>
+              </div>
             </div>
           </div>
         </div>

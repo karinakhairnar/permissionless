@@ -166,6 +166,11 @@
     margin-top: 10em;
 }
 
+.DataMap{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+}
 /* .fund{
     width: 80%;
     margin: auto;
@@ -384,4 +389,7 @@ width: 35%;
 .datemap>div{
     border: 1px solid rgb(95, 83, 83);
     padding: 10px;
+}
+.lastone{
+    
 }

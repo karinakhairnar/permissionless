@@ -2,6 +2,18 @@ import React from 'react';
 import titleLogo from '../Logo/titleLogo.png';
 import problem from '../Logo/problem.png';
 import Fullstar from '../Logo/Fullstar.png';
+import persons from '../Logo/persons.png';
+import buyToken from '../Logo/buyToken.png';
+import fullredstart from '../Logo/fullredstart.png';
+import Governavers from '../Logo/Governavers.png';
+import ROADMAP from '../Logo/ROADMAP.png';
+import q42023 from '../Logo/q42023.png';
+import q12023 from '../Logo/q12023.png';
+import q22023 from '../Logo/q22023.png';
+import q32023 from '../Logo/q32023.png';
+import q42022 from '../Logo/q42022.png';
+
+import background4 from '../Background/background4.png';
 
 import './Basic.css';
 const Basic = () => {
@@ -48,7 +60,7 @@ const Basic = () => {
         <div className='star'>
           <div className='banner2'>
             <div className='titleAbout'>
-              <p className='Tokenpara'>
+              <p className='TokenPara'>
                 Venture-X plan to combine conventional VC industry and
                 Blockchain technology making the start-up ecosystem so much more
                 accessible, that ordinary and small retail investors can become
@@ -161,35 +173,91 @@ const Basic = () => {
             </p>
           </div>
         </div>
-        <div className='BuyToken'>
-          <div className='fullredstar'></div>
+        <div>
+          <div className='token'>
+            <div className='token1'>
+              <img src={buyToken} alt='buyToken' className='Img' />
+            </div>
+            <div>
+              <img src={fullredstart} alt='fullredstart' className='Img' />
+            </div>
+            {/* <div className='fullredstar'></div> */}
+          </div>
+          <div className='governave'>
+            <div>
+              <p>
+                Our Team is actively working on Governance Framework to make VX
+                ecosystem completely transparent, decentralized and
+                community-driven Fund. The Governance to the VX Unit holders
+                will allow them to Vote & Validate the deals in the pool and
+                also on the major decisions that are related to the future
+                development and management of the VX ecosystem.
+              </p>
+            </div>
+            <div className='Governavers'>
+              <img src={Governavers} alt='Governavers' className='problemImg' />
+            </div>
+            <div>
+              <p>
+                The governance will play a key role in facilitating from
+                centralized VC Fund controlled by single corporation to a
+                decentralized platform that is autonomous and governed by
+                community through protocols. The governance model of VX would
+                eventually be more democratic and decentralized with the owners
+                of VX units having real say in the functioning and a scope to
+                voice their opinions on the directions of Venture-X.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className='governave'>
-          <div>
+        {/* <div className='fund'></div> */}
+        <div className='fund'>
+          <img src={background4} alt='background4' className='Img' />
+        </div>
+        <div className='persondetail'>
+          <img src={persons} alt='persons' className='Img' />
+        </div>
+        {/* roadmap */}
+        <div className='mapDetails'>
+          <div className='ROADMAP'>
+            <img src={ROADMAP} alt='ROADMAP' />
+          </div>
+          <div className='roadmapPara'>
             <p>
-              Our Team is actively working on Governance Framework to make VX
-              ecosystem completely transparent, decentralized and
-              community-driven Fund. The Governance to the VX Unit holders will
-              allow them to Vote & Validate the deals in the pool and also on
-              the major decisions that are related to the future development and
-              management of the VX ecosystem.
+              Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec
+              lorem viverra purus urna, netus. Ut turpis curabitur lorem
+              scelerisque.
+            </p>
+            <p>
+              Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec{' '}
             </p>
           </div>
-          <div className='Governavers'></div>
-          <div>
-            <p>
-              The governance will play a key role in facilitating from
-              centralized VC Fund controlled by single corporation to a
-              decentralized platform that is autonomous and governed by
-              community through protocols. The governance model of VX would
-              eventually be more democratic and decentralized with the owners of
-              VX units having real say in the functioning and a scope to voice
-              their opinions on the directions of Venture-X.
-            </p>
+          <div className='datemap'>
+            <div>
+              <img src={q42022} alt='q42022' />
+              <p>
+                Massa, mattis elit tincidunt faucibus porta enim integer dolor
+                odio.
+              </p>
+            </div>
+            <div>
+              <img src={q12023} alt='q12023' />
+              <p>Sed nibh congue tempus sit sit.</p>
+            </div>
+            <div>
+              <img src={q22023} alt='q22023' />
+              <p>Sed pharetra nibh condimentum id pellentesque.</p>
+            </div>
+            <div>
+              <img src={q32023} alt='q32023' />
+              <p>Nullam sed tincidunt dui vehicula porttitor.</p>
+            </div>
+            <div>
+              <img src={q42023} alt='q42023' />
+              <p>Morbi maecenas quis hendrerit nam neque.</p>
+            </div>
           </div>
         </div>
-          <div className='fund'></div>
-          <div className='persondetail'></div>
       </div>
       {/* footer */}
       <div className='footer'>

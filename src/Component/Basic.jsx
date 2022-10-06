@@ -233,7 +233,7 @@ const Basic = () => {
             </p>
           </div>
           <div className='DataMap'>
-          <hr style={{ transform: 'rotate(-16deg)' }} />
+            <hr style={{ transform: 'rotate(-16deg)' }} />
             <div className='datemap'>
               <div className='first'>
                 <img src={q42022} alt='q42022' />

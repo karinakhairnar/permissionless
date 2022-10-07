@@ -14,7 +14,6 @@ import q32023 from '../Logo/q32023.png';
 import q42022 from '../Logo/q42022.png';
 import Starfull from '../Logo/Starfull.png';
 import FullWhiteStar from '../Logo/FullWhiteStar.png';
-
 import background4 from '../Background/background4.png';
 
 import './Basic.css';
@@ -31,11 +30,13 @@ const Basic = () => {
             <div>
               <p className='titlepara'>READ WHITEPAPER</p>
             </div>
-            <div style={{display:'flex',gap:10}}>
+            <div style={{ display: 'flex', gap: 30 }}>
               <div>
                 <p className='titlepara'>CONNECT WALLET</p>
               </div>
-              <div className='vartical'></div>
+              <div>
+                <div className='vartical'></div>
+              </div>
             </div>
           </div>
           <div className='token'>
@@ -132,7 +133,7 @@ const Basic = () => {
       {/* third */}
       <div>
         <div className='dotted'></div>
-        
+
         <div className='solution'>
           <div className='solution1'>
             <p>
@@ -243,7 +244,7 @@ const Basic = () => {
             </p>
           </div>
           <div className='DataMap'>
-            <hr  className='rotate' />
+            <hr className='rotate' />
             <div className='datemap'>
               <div className='first'>
                 <img src={q42022} alt='q42022' />
@@ -305,7 +306,7 @@ const Basic = () => {
               <label className='buy1'>SUBSCRIBE</label>
             </div>
           </div>
-          <hr className='final'/>
+          <hr className='final' />
           <div className='footerlast'>
             <div className='FooteerLast'>
               <div>

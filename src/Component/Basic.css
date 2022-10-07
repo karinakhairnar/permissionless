@@ -1,6 +1,6 @@
 
 *{
-    font-family: Satoshi;
+    font-family: "Light";
 }.Banner{
     margin: auto;
     padding: 10px;
@@ -14,7 +14,7 @@
     font-family: system-ui;
     line-height: 25px;
     height: 650px;
-    width: 47%;
+    width: 52%;
     margin: auto;
     background-image: url("../Background/background2.png"); 
     background-repeat: no-repeat;
@@ -22,6 +22,7 @@
 .banner3{
     background-color: black;
     color: aliceblue;
+    margin-top: -20em;
 }
 .bannersale{
     width: 85%;
@@ -31,21 +32,23 @@
     margin-left:0.01em;
 }
 .circle{
-    margin-top: 20px;
     width: 50em;
+   
     background-image: url("../Logo/saleGroup.png");
     background-repeat: no-repeat;
 }
 .round{
     width: 300px;
     height: 500px;   
-    margin-top: -6em;
+    margin-top: -7em;
+    margin-left: -3em;
     background-image: url("../Logo/circle.png");
     background-repeat: no-repeat;
 }
 .token1{
-    margin-left: 6em;
+    margin-left: 8em;
     margin-top: -40em;
+    width: 80%;
 }
 .fullredstart{
     margin-left: 2em;
@@ -53,8 +56,8 @@
 }
 .tokensale{
     margin-top: -270px;
-    width: 80%;
-    margin-left: 100px;
+    width: 90%;
+    margin-left: 250px;
     height: 50em;   
     background-image: url("../Logo/tokenSale.png");
     background-repeat: no-repeat;
@@ -63,7 +66,7 @@
     margin-top: 9em;
     font-size: 16px;
     font-weight: 400;
-    width: 43%;
+    width: 60%;
     line-height:21.6px;
     margin-left: -8em;
     text-align: left;
@@ -72,36 +75,35 @@
 .solution{
     margin: auto;
     padding: 10px;
-    font-family: Satoshi;
-    font-size: 16px;
-    line-height: 21.6px;
-    height: 700px;
     background-color: black;
     color: aliceblue;
     display: flex;
     gap:30px;
     text-align: left;
     background-image: url("../Background/background3.png");
+    background-repeat: no-repeat;
 }
 .solution1{
     margin-top: 190px;
-    margin-left: 14em;
+    margin-left: 8.5em;
     width: 25%;
-    font-size: 23px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 700;
     line-height: 33.75px;
 }
 .solution2{
-    width: 40%;
+    width: 45%;
     margin: auto;
     margin-top: 350px;
     font-size: 16px;
     height: 700px;
-    line-height: 21.6px;
+    line-height: 22px;
+    margin-right: 12em;
 }
 .aboutlogo{
     height: 350px;  
-    margin-left: 2em; 
+    margin-left: 0em; 
+    margin-top: 2em;
     background-image: url("../Logo/aboutlogo.png");
     background-repeat: no-repeat;
 }
@@ -141,8 +143,8 @@
     gap: 50px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.6px;
-    margin-top: -20em;
+    line-height: 22px;
+    margin-top: -22em;
     text-align: left;
     margin-left: 7em;
 
@@ -194,13 +196,18 @@
 } */
 .vartical{
     border-left: 2px solid rgb(187, 187, 204);
-    height: 3em   
+    height: 3em;
+    margin-top: 1em; 
 }
 .fund{
     margin-top: -0.9em;
-    margin-left: 15em;
-    width: 70%;
+    margin-left: 10em;
+    width: 80%;
     
+}
+.fullstartwhite{
+    background-image: url("../Logo/FullWhiteStar.png");
+    background-repeat: no-repeat;
 }
 .star{
     height: 150px;
@@ -218,13 +225,15 @@
 .titlepara{
     color: aliceblue;
         line-height: 21px;
+        width: 75%;
     font-size: 16px;
     font-weight: 400;
-    font-family: Satoshi;
-    line-height: 21.6px;
+    line-height: 22px;
+    margin-left: 3em;
 }
+
 .title{
-    width: 87%;
+    width: 80%;
     display: flex;
     margin: auto;
     margin-top: 3em;
@@ -241,15 +250,16 @@
 .TitleAbout{
     width: 40%;
     margin: auto;
-    margin-top: -40px;
-    margin-right: 160px;
+    margin-top: -145px;
+    margin-right: 170px;
 }
 .buy{
     font-size: 39px;
     font-weight: 500;
     margin-left: -5em;
     margin-top: 0.7em;
-    color: rgb(181, 13, 13);
+    line-height: 52.65px;
+    color: hsla(0, 100%, 50%, 0.889);
 }
 /* #hr1{
     color: aliceblue;
@@ -261,29 +271,28 @@
 .buy1{
     font-size: 16px;
     font-weight: 700;
-    margin-left: -25em;
+    margin-left: -2em;
     line-height: 21.6px;
     color: rgb(181, 13, 13);
     
 }
 
 .token{
-    width: 99%;
     display: flex;
     margin: auto;
     align-content:left;
     padding: 10px;
-    margin-top: 9em;
+    margin-top: 5em;
     justify-content: space-between;
 }
 .Tokenpara{
-    width: 40%;
+    width: 45%;
     color: white;
     text-align: left;
     font-size: 39px;
     font-weight: 300;
     margin-top: 5px;
-    margin-left: 3.3em;
+    margin-left: 2em;
     line-height: 47px;
     font-family:Satoshi ;
 }
@@ -292,42 +301,43 @@
     text-align: left;
     line-height: 22px;
     font-size: 16px;
-    margin-top: 100px;
+    font-weight: 400;
+    margin-top: 120px;
 width: 50%;
 margin-left: -15em;
 }
 .Tokenpara1{
-    width: 70%;
+    width: 50%;
     color: white;
     text-align: left;
     line-height: 22px;
     font-weight: 400px;
     font-size: 16px;
-    margin-top: 250px;
-    margin-right: -370px;
+    margin-top: 300px;
+    margin-right: -230px;
 }
 .para{
     width: 85%;
-    margin: auto;
+    margin-left: 5.6em;
     color: white;
     text-align: left;
-    line-height: 22px;
+    line-height: 21.6px;
+    font-weight: 400;
     font-size: 16px;
     margin-top: 5em;
-    margin-left: 9em;
     margin-bottom: 3em;
 }
 .problem{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
     gap:30px;
     padding: 20px;
     text-align: left;
-    margin-top: 320px;
-    margin-left: -5em;
+    margin-top: 24em;
+    margin-left: -7em;
 }
 .problemImg{
     margin-left: 200px;
+    margin-top: 1.5em;
 }
 
 .footer1{
@@ -376,7 +386,7 @@ margin-left: 10em;
     background-color: black;
 }
 .rotate{
-    transform: rotate(-15deg);
+    transform: rotate(-18deg);
     height: 5px;
     background-color: rgb(255, 4, 4);
     border: none;
@@ -447,14 +457,14 @@ width: 35%;
 .datemap>div{
     border: 1px solid rgb(95, 83, 83);
     padding: 10px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(17px);
     margin-top: -17em;
 }
 .lastone{
 position: absolute;
 width: 200px;
 height: 140px;
-left: 1250px;
+left: 1180px;
 top: 5050px;
 
 }
@@ -462,29 +472,29 @@ top: 5050px;
 position: absolute;
 width: 200px;
 height: 140px;
-right: 300px;
-top: 5130px;
+left: 930px;
+top: 5150px;
 }
 .lastthird{
     position: absolute;
     width: 200px;
     height: 140px;
-    right: 550px;
-    top: 5200px;
+    right: 630px;
+    top: 5210px;
 }
 .sec{
     position: absolute;
     width: 200px;
     height: 140px;
-    right: 810px;
-    top: 5250px;
+    right: 890px;
+    top: 5270px;
 }
 .first{
     position: absolute;
     width: 200px;
     height: 140px;
-    right: 1070px;
-    top: 5300px;
+    right: 1150px;
+    top: 5360px;
     
 }
 .terms{

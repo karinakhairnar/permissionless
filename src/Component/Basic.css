@@ -14,7 +14,7 @@
     font-family: system-ui;
     line-height: 25px;
     height: 650px;
-    width: 52%;
+    width: 47%;
     margin: auto;
     background-image: url("../Background/background2.png"); 
     background-repeat: no-repeat;
@@ -24,16 +24,15 @@
     color: aliceblue;
 }
 .bannersale{
-    width: 75%;
+    width: 85%;
     display: flex;
     gap: 30px;
     margin: auto;
-    text-align: left;
+    margin-left:0.01em;
 }
 .circle{
     margin-top: 20px;
-    width: 500px;
-    height: 500px;   
+    width: 50em;
     background-image: url("../Logo/saleGroup.png");
     background-repeat: no-repeat;
 }
@@ -45,23 +44,31 @@
     background-repeat: no-repeat;
 }
 .token1{
-    margin-left: 10em;
+    margin-left: 6em;
+    margin-top: -40em;
+}
+.fullredstart{
+    margin-left: 2em;
+    margin-top: -42em; 
 }
 .tokensale{
     margin-top: -270px;
-    width: 500px;
+    width: 80%;
     margin-left: 100px;
-    height: 500px;   
+    height: 50em;   
     background-image: url("../Logo/tokenSale.png");
     background-repeat: no-repeat;
 }
 .tokensalepara{
-    width: 75%;
-    margin-top: 120px;
+    margin-top: 9em;
     font-size: 16px;
     font-weight: 400;
+    width: 43%;
     line-height:21.6px;
+    margin-left: -8em;
+    text-align: left;
 }
+
 .solution{
     margin: auto;
     padding: 10px;
@@ -77,11 +84,11 @@
     background-image: url("../Background/background3.png");
 }
 .solution1{
-    margin-top: 230px;
-    width: 30%;
-    margin: auto;
-    font-size: 25px;
-    font-weight: 700;
+    margin-top: 190px;
+    margin-left: 14em;
+    width: 25%;
+    font-size: 23px;
+    font-weight: 600;
     line-height: 33.75px;
 }
 .solution2{
@@ -93,7 +100,8 @@
     line-height: 21.6px;
 }
 .aboutlogo{
-    height: 350px;   
+    height: 350px;  
+    margin-left: 2em; 
     background-image: url("../Logo/aboutlogo.png");
     background-repeat: no-repeat;
 }
@@ -130,10 +138,14 @@
     display: flex;
     width: 90%;
     margin: auto;
+    gap: 50px;
     font-size: 16px;
     font-weight: 400;
     line-height: 21.6px;
+    margin-top: -20em;
     text-align: left;
+    margin-left: 7em;
+
 }
 
 /* .Governavers{
@@ -161,14 +173,14 @@
     margin-top: -20em;
 } */
 .persondetail{
-    width: 80%;
+    width: 78%;
     margin: auto;
     margin-top: 10em;
+    
 }
 
 .DataMap{
     margin: auto;
-    margin-top: 5em;
 }
 /* .fund{
     width: 80%;
@@ -180,10 +192,14 @@
     background-repeat: no-repeat;
     margin-top: -40em;
 } */
+.vartical{
+    border-left: 2px solid rgb(187, 187, 204);
+    height: 3em   
+}
 .fund{
-    margin-top: -0.5em;
-    margin-left: 5em;
-    width: 90%;
+    margin-top: -0.9em;
+    margin-left: 15em;
+    width: 70%;
     
 }
 .star{
@@ -204,12 +220,14 @@
         line-height: 21px;
     font-size: 16px;
     font-weight: 400;
+    font-family: Satoshi;
     line-height: 21.6px;
 }
 .title{
     width: 87%;
     display: flex;
     margin: auto;
+    margin-top: 3em;
     justify-content: space-between;
     font-size: 12px;
 }
@@ -230,19 +248,20 @@
     font-size: 39px;
     font-weight: 500;
     margin-left: -5em;
+    margin-top: 0.7em;
     color: rgb(181, 13, 13);
 }
-#hr1{
+/* #hr1{
     color: aliceblue;
-}
+} */
 .fullstar{
-    margin-top: 2em;
+    margin-top: -7em;
     width: 40%;
 }
 .buy1{
     font-size: 16px;
-    font-weight: 500;
-    margin-left: -15em;
+    font-weight: 700;
+    margin-left: -25em;
     line-height: 21.6px;
     color: rgb(181, 13, 13);
     
@@ -254,53 +273,58 @@
     margin: auto;
     align-content:left;
     padding: 10px;
+    margin-top: 9em;
     justify-content: space-between;
 }
 .Tokenpara{
-    width: 30%;
+    width: 40%;
     color: white;
     text-align: left;
     font-size: 39px;
     font-weight: 300;
-    margin-top: 10px;
-    margin-left: 250px;
+    margin-top: 5px;
+    margin-left: 3.3em;
     line-height: 47px;
     font-family:Satoshi ;
 }
 .TokenPara{
     color: white;
     text-align: left;
-    line-height: 21px;
+    line-height: 22px;
     font-size: 16px;
     margin-top: 100px;
 width: 50%;
-margin-left: -200px;
+margin-left: -15em;
 }
 .Tokenpara1{
     width: 70%;
     color: white;
     text-align: left;
-    line-height: 21.6px;
+    line-height: 22px;
     font-weight: 400px;
     font-size: 16px;
     margin-top: 250px;
-    margin-right: -350px;
+    margin-right: -370px;
 }
 .para{
-    width: 87%;
+    width: 85%;
     margin: auto;
     color: white;
     text-align: left;
-    line-height: 21.6px;
+    line-height: 22px;
     font-size: 16px;
+    margin-top: 5em;
+    margin-left: 9em;
+    margin-bottom: 3em;
 }
 .problem{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:20px;
-    padding: 10px;
+    gap:30px;
+    padding: 20px;
     text-align: left;
     margin-top: 320px;
+    margin-left: -5em;
 }
 .problemImg{
     margin-left: 200px;
@@ -323,6 +347,7 @@ display: flex;
     font-size: 16px;
     line-height: 21.6px;
     color: white;
+  
 }
 /* .fullstar{
     height:170px;
@@ -335,19 +360,40 @@ height: auto;
 justify-content: space-between;
 width: 80%;
 margin: auto;
+margin-left: 10em;
 }
 
 .footer2{
     background-color: black;
 }
-hr{
-    height: 2px;
-    background-color: rgb(212, 0, 0);
+/* hr{
+    height: 5px;
+    color: rgb(212, 0, 0);
+    border: none;
+} */
+.dotted{
+    border-top: 2px dashed rgb(0, 42, 255);
+    background-color: black;
+}
+.rotate{
+    transform: rotate(-15deg);
+    height: 5px;
+    background-color: rgb(255, 4, 4);
+    border: none;
+   margin-top: 6.9em;
+}
+.final{
+    height: 1px;
+    background-color: rgb(188, 63, 63);
     border: none;
 }
 .ImgFooter{
     width: 30%;
     margin-top: 10px;
+    margin-left: 9em;
+}
+.FooteerLast{
+    display: flex;
 }
 .footerlast{
     background-color: black;
@@ -389,25 +435,27 @@ width: 35%;
     text-align: left;
     gap: 20px;
     color: gray;
-    width: 80%;
+    
     font-size: 16px;
-    line-height: 21.6px;
+    /* line-height: 21.6px; */
     font-weight: 400;
     margin: auto;
+   
     height: 250px;
 }
 
 .datemap>div{
     border: 1px solid rgb(95, 83, 83);
     padding: 10px;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
+    margin-top: -17em;
 }
 .lastone{
 position: absolute;
 width: 200px;
 height: 140px;
-left: 1200px;
-top: 4670px;
+left: 1250px;
+top: 5050px;
 
 }
 .lastsec{
@@ -415,28 +463,28 @@ position: absolute;
 width: 200px;
 height: 140px;
 right: 300px;
-top: 4740px;
+top: 5130px;
 }
 .lastthird{
     position: absolute;
     width: 200px;
     height: 140px;
     right: 550px;
-    top: 4800px;
+    top: 5200px;
 }
 .sec{
     position: absolute;
     width: 200px;
     height: 140px;
     right: 810px;
-    top: 4850px;
+    top: 5250px;
 }
 .first{
     position: absolute;
     width: 200px;
     height: 140px;
     right: 1070px;
-    top: 4900px;
+    top: 5300px;
     
 }
 .terms{

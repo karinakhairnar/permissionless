@@ -31,8 +31,11 @@ const Basic = () => {
             <div>
               <p className='titlepara'>READ WHITEPAPER</p>
             </div>
-            <div>
-              <p className='titlepara'>CONNECT WALLET</p>
+            <div style={{display:'flex',gap:10}}>
+              <div>
+                <p className='titlepara'>CONNECT WALLET</p>
+              </div>
+              <div className='vartical'></div>
             </div>
           </div>
           <div className='token'>
@@ -45,7 +48,7 @@ const Basic = () => {
             <div>
               <p className='buy'> Buy Token</p>
             </div>
-              <div className='fullstar'>
+            <div className='fullstar'>
               <img src={Starfull} alt='Starfull' className='Img' />
             </div>
           </div>
@@ -89,19 +92,6 @@ const Basic = () => {
           </div>
           <div>
             <p className='titlepara'>
-              There's no avenue available which gives opportunity to common
-              retail investor to participate in a VC Fund or private pool in IDO
-              s and connects Start-ups with common investor.
-            </p>
-            <br />
-            <p className='titlepara'>
-              Even if one did find a potential company, putting all the eggs in
-              one basket can be risky and diversifying your investment portfolio
-              can be tedious.
-            </p>
-          </div>
-          <div>
-            <p className='titlepara'>
               The Venture Capital industry and Start-up investment are
               completely in the hands of private sector- where big players rule
               the entire industry and Investment game and having an unfair
@@ -118,6 +108,19 @@ const Basic = () => {
           </div>
           <div>
             <p className='titlepara'>
+              There's no avenue available which gives opportunity to common
+              retail investor to participate in a VC Fund or private pool in IDO
+              s and connects Start-ups with common investor.
+            </p>
+            <br />
+            <p className='titlepara'>
+              Even if one did find a potential company, putting all the eggs in
+              one basket can be risky and diversifying your investment portfolio
+              can be tedious.
+            </p>
+          </div>
+          <div>
+            <p className='titlepara'>
               The most important challenge Founders and startups face is to
               build a community for their product and services for which they Go
               all in and spend most of the funds they raised on marketing,
@@ -128,6 +131,8 @@ const Basic = () => {
       </div>
       {/* third */}
       <div>
+        <div className='dotted'></div>
+        
         <div className='solution'>
           <div className='solution1'>
             <p>
@@ -183,7 +188,7 @@ const Basic = () => {
             <div className='token1'>
               <img src={buyToken} alt='buyToken' className='Img' />
             </div>
-            <div>
+            <div className='fullredstart'>
               <img src={fullredstart} alt='fullredstart' className='Img' />
             </div>
             {/* <div className='fullredstar'></div> */}
@@ -202,7 +207,7 @@ const Basic = () => {
             <div className='Governavers'>
               <img src={Governavers} alt='Governavers' className='problemImg' />
             </div>
-            <div>
+            <div className='governancePara'>
               <p>
                 The governance will play a key role in facilitating from
                 centralized VC Fund controlled by single corporation to a
@@ -238,7 +243,7 @@ const Basic = () => {
             </p>
           </div>
           <div className='DataMap'>
-            <hr style={{ transform: 'rotate(-16deg)' }} />
+            <hr  className='rotate' />
             <div className='datemap'>
               <div className='first'>
                 <img src={q42022} alt='q42022' />
@@ -300,17 +305,20 @@ const Basic = () => {
               <label className='buy1'>SUBSCRIBE</label>
             </div>
           </div>
-          <hr />
+          <hr className='final'/>
           <div className='footerlast'>
-            <div>
+            <div className='FooteerLast'>
               <div>
                 <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
               </div>
-            </div>
-            <div className='footerlast'>
               <div>
                 <p className='buy1'>QUICK LINKS</p>
               </div>
+            </div>
+            <div className='footerlast'>
+              {/* <div>
+                <p className='buy1'>QUICK LINKS</p>
+              </div> */}
               <div className='terms'>
                 <p>Token</p>
                 <p>How it works</p>

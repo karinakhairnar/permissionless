@@ -1,7 +1,6 @@
 import React from 'react';
 import titleLogo from '../Logo/titleLogo.png';
 import problem from '../Logo/problem.png';
-import Fullstar from '../Logo/Fullstar.png';
 import persons from '../Logo/persons.png';
 import buyToken from '../Logo/buyToken.png';
 import fullredstart from '../Logo/fullredstart.png';
@@ -133,7 +132,6 @@ const Basic = () => {
       {/* third */}
       <div>
         <div className='dotted'></div>
-
         <div className='solution'>
           <div className='solution1'>
             <p>
@@ -310,8 +308,8 @@ const Basic = () => {
           <div className='footerlast'>
             <div className='FooteerLast'>
               <div className='social'>
-              <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
-              <p className='buy1'>QUICK LINKS</p>
+                <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
+                <p className='buy1'>QUICK LINKS</p>
               </div>
             </div>
             <div className='footerlast'>

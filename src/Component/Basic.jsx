@@ -309,17 +309,12 @@ const Basic = () => {
           <hr className='final' />
           <div className='footerlast'>
             <div className='FooteerLast'>
-              <div>
-                <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
-              </div>
-              <div>
-                <p className='buy1'>QUICK LINKS</p>
+              <div className='social'>
+              <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
+              <p className='buy1'>QUICK LINKS</p>
               </div>
             </div>
             <div className='footerlast'>
-              {/* <div>
-                <p className='buy1'>QUICK LINKS</p>
-              </div> */}
               <div className='terms'>
                 <p>Token</p>
                 <p>How it works</p>

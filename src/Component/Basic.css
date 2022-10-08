@@ -175,7 +175,7 @@
     margin-top: -20em;
 } */
 .persondetail{
-    width: 78%;
+    width: 85%;
     margin: auto;
     margin-top: 10em;
     
@@ -271,7 +271,7 @@
 .buy1{
     font-size: 16px;
     font-weight: 700;
-    margin-left: -2em;
+    margin-left: 2em;
     line-height: 21.6px;
     color: rgb(181, 13, 13);
     
@@ -349,6 +349,7 @@ display: flex;
  font-weight: 500;
     font-size: 39px;
     line-height: 52.65px;
+    margin-left: -1em;
 }
 .social{
     display: flex;
@@ -357,6 +358,7 @@ display: flex;
     font-size: 16px;
     line-height: 21.6px;
     color: white;
+    margin-left: 1em;
   
 }
 /* .fullstar{
@@ -371,6 +373,7 @@ justify-content: space-between;
 width: 80%;
 margin: auto;
 margin-left: 10em;
+margin-left: 7.5em;
 }
 
 .footer2{
@@ -398,9 +401,10 @@ margin-left: 10em;
     border: none;
 }
 .ImgFooter{
-    width: 30%;
+    width: 50%;
+    height: 50px;
     margin-top: 10px;
-    margin-left: 9em;
+    margin-left: 4em;
 }
 .FooteerLast{
     display: flex;
@@ -417,13 +421,14 @@ margin-left: 10em;
     line-height: 16.2px;
     margin: auto;
     margin-top: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .mapDetails{
-    margin-top: 7em;
+    margin-top: 3em;
 }
 .ROADMAP{
 width: 35%;
+margin-left: -4em;
 }
 .roadmapPara{
     display: flex;
@@ -438,6 +443,7 @@ width: 35%;
     align-items: left;
     line-height: 21.6px;
     color: grey;
+    margin-left: 8em;
 }
 .datemap{
     display: grid;

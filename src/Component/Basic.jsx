@@ -221,7 +221,7 @@ const Basic = () => {
         </div>
         {/* <div className='fund'></div> */}
         <div className='fund'>
-          <img src={background4} alt='background4' className='Img' />
+          <img src={background4} alt='background4' className='Img' />{' '}
         </div>
         <div className='persondetail'>
           <img src={persons} alt='persons' className='Img' />
@@ -232,12 +232,12 @@ const Basic = () => {
             <img src={ROADMAP} alt='ROADMAP' />
           </div>
           <div className='roadmapPara'>
-            <p>
+            <p className='mappara'>
               Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec
               lorem viverra purus urna, netus. Ut turpis curabitur lorem
               scelerisque.
             </p>
-            <p>
+            <p className='mappara1'>
               Ut adipiscing enim, mauris suscipit ut turpis diam, tristique. Nec{' '}
             </p>
           </div>
@@ -298,7 +298,7 @@ const Basic = () => {
           <div className='footersec'>
             <div className='social'>
               <p>NEWSLETTER</p>
-              <p style={{ color: 'grey' }}>ENTER EMAIL ID</p>
+              <p className='email'>ENTER EMAIL ID</p>
             </div>
             <div>
               <label className='buy1'>SUBSCRIBE</label>
@@ -309,7 +309,7 @@ const Basic = () => {
             <div className='FooteerLast'>
               <div className='social'>
                 <img src={titleLogo} alt='titleLogo' className='ImgFooter' />
-                <p className='buy1'>QUICK LINKS</p>
+                <p className='buy2'>QUICK LINKS</p>
               </div>
             </div>
             <div className='footerlast'>
